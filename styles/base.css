@@ -10,20 +10,20 @@ body {
     background-color: #f4f4f4;
 }
 h2{
-    color: #D9B99F;
+    color: #7A958F;
     margin-top: 10px;
 }
 header, footer {
     background-color: #447F6D; 
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 20px 0;
 }
 
 /* Header Styles */
 header {
-    background-color: #77AA99;
-    color: #fff;
+    background-color: #7A958F;
+    color: black;
     text-align: center;
     padding: 20px 0;
 }
@@ -98,7 +98,7 @@ nav .nav-links a:hover {
     grid-column: 1/4;
     grid-row: 1/2;
     background: #BAE0DA;
-    color: white;
+    color: black;
     text-align: center;
     padding: 12px;
     font-size: 1.2em;
@@ -166,14 +166,14 @@ nav .nav-links a:hover {
 .ul-resources li a {
     display: inline-block;    
     padding: 12px 20px;       
-    font-size: 1.2rem;        /* Asegura un tamaño adecuado del texto */
-    text-decoration: none;    /* Asegura que no haya subrayado */
-    color: #444;              /* Color adecuado para la accesibilidad */
+    font-size: 1.2rem;        
+    text-decoration: none;    
+    color: #444;              
 }
 
 .ul-resources li a:hover {
-    color: #BAE0DA;           /* Cambia el color cuando se pasa el cursor */
-    background-color: #444;   /* Asegura que haya un buen contraste al pasar el cursor */
+    color: #BAE0DA;           
+    background-color: #444;   
 }
 
 .about-text{
