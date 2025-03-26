@@ -14,7 +14,7 @@ h2{
     margin-top: 10px;
 }
 header, footer {
-    background-color: #77AA99;
+    background-color: #447F6D; 
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -56,14 +56,13 @@ nav .nav-links li {
 
 nav .nav-links a {
     text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    padding: 0 20px;
+    color: #FFEE00; 
 }
 
 nav .nav-links a:hover {
-    color: #CACDBD; 
+    color: #FFD700; 
 }
+
 
 
 .tables-container {
@@ -108,12 +107,14 @@ nav .nav-links a:hover {
     border-bottom: 3px solid #77AA99;
     
 }
-#info{
+#info {
     grid-column: 1/3;
     grid-row: 2/3;
     margin-top: 10px;
     padding: 15px;
+    color: #333; 
 }
+
 #place{
     grid-column: 1/3;
     grid-row: 3/4;
