@@ -163,12 +163,19 @@ nav .nav-links a:hover {
     border: .5px solid #77AA99;
 
 }
-.ul-resources{
-    margin-top: 150px;
-    text-align: center;
-    padding-left: 10px;
-    list-style-position: inside;
+.ul-resources li a {
+    display: inline-block;    
+    padding: 12px 20px;       
+    font-size: 1.2rem;        /* Asegura un tamaño adecuado del texto */
+    text-decoration: none;    /* Asegura que no haya subrayado */
+    color: #444;              /* Color adecuado para la accesibilidad */
 }
+
+.ul-resources li a:hover {
+    color: #BAE0DA;           /* Cambia el color cuando se pasa el cursor */
+    background-color: #444;   /* Asegura que haya un buen contraste al pasar el cursor */
+}
+
 .about-text{
 padding: 20px;
 }
