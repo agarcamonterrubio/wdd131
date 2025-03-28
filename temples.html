@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A webpage showcasing various temples and their location.">
+    <meta name="author" content="Alma Fernanda Garcia Monterrubio">
+    <title>Temple Album</title>
+    <link rel="stylesheet" href="styles/temples.css" media="all">
+    <link rel="stylesheet" href="styles/temples-large.css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <header>
+        <h1 class="title">Temple Album</h1>
+        <nav>
+            <div id="hamburger-icon" class="hamburger">&#9776;</div>
+            <ul id="nav-list">
+                <li><button>Home</button></li>
+                <li><button>Old</button></li>
+                <li><button>New</button></li>
+                <li><button>Large</button></li>
+                <li><button>Small</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+   <main>
+    <h2>Home</h2>
+    <div id="temple-images">
+
+        <figure>
+        <img id="mexico-city" src="images/cd.mexico mexico.jpg" alt="mexico city temple">
+        <figcaption>Mexico City Temple</figcaption>
+        </figure>
+
+        <figure>
+        <img id="paris" src="images/paris france.jpg" alt="paris temple ">
+        <figcaption>Paris Temple</figcaption>
+        </figure>
+
+        <figure>
+        <img id="payson" src="images/payson utah.jpg" alt="payson temple">
+        <figcaption>Payson Temple</figcaption>
+        </figure>
+
+        <figure>
+        <img id="roma" src="images/roma italia.jpg" alt="roma temple">
+        <figcaption>Roma Temple</figcaption>
+        </figure>
+
+        <figure>
+        <img id="san-diego" src="images/san diego cliformia.jpg" alt="san diego temple">
+        <figcaption>San Diego Temple</figcaption>
+        </figure>
+
+        <figure>
+        <img id="hermosillo" src="images/hermosillo sonora.jpg" alt="hermosillo temple">
+        <figcaption>Hermosillo Temple</figcaption>
+        </figure>
+
+        <figure>
+        <img id="hong-kong" src="images/hong kong china.jpg" alt="hong kong temple">
+        <figcaption>Hong Kong Temple</figcaption>
+        </figure>
+
+        <figure>
+        <img id="salt-lake" src="images/salt lake city utah.jpg" alt="salt lake city temple">
+        <figcaption>Salt Lake City Temple</figcaption>
+        </figure>
+
+        <figure>
+        <img id="puebla" src="images/puebla mexico.jpg" alt="puebla temple">
+        <figcaption>Puebla Temple</figcaption>
+        </figure>
+    </div>
+    
+
+   </main> 
+
+   
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Alma Fernanda Garcia Monterrubio | Hidalgo</p>
+        <p id="lastModified"></p>
+        <script src="scripts/getdates.js" defer></script>
+    </footer>
+
+    <script src="scripts/temples.js" defer></script>
+
+</body>
+</html>
