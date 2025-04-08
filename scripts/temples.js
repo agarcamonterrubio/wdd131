@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function () {
     const hamburger = document.getElementById("hamburger-icon");
     if (hamburger) {
