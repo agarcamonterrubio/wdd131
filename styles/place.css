@@ -41,16 +41,29 @@ header {
 }
 
 section {
-  background-color: transparent; /* quitar fondo blanco */
-  border: none; /* quitar bordes */
-  padding: 10px 0; /* menos espacio vertical */
+  background-color: transparent; 
+  border: none; 
+  padding: 10px 0; 
   margin-bottom: 10px;
 }
 
-/* Centrar contenido de las secciones Data y Weather */
 .data,
 .weather {
   text-align: center;
+  color:black
+
+}
+
+.data h2,
+.weather h2 {
+  color: black;
+  margin-bottom: 15px;
+}
+
+.data,
+.weather {
+  padding-top: 10px;
+  text-align: center; 
 }
 
 .data p,
@@ -59,12 +72,8 @@ section {
   text-align: center;
 }
 
-/* Corrigiendo conflicto de estilos flex que no se usa en .data-grid y .weather-content */
 .data-grid p,
 .weather-content p {
-  /* Si no usas display flex aquí, mejor quitar para evitar conflictos */
-  /* display: flex; */
-  /* justify-content: space-between; */
   padding: 4px 0;
 }
 
@@ -85,23 +94,15 @@ section {
   height: auto;
 }
 
-/* Esta regla parece no usarse ahora, ya que quitamos imagen dentro de h2, la comento */
-/*
-.weather h2 .weather-icon {
-  width: 30px;
-  height: auto;
-}
-*/
 
 footer {
   text-align: center;
   font-size: 0.9em;
-  color: #555;
+  color: #fdfdfd;
   border-top: 1px solid #aaa;
   padding-top: 10px;
 }
 
-/* --- RESPONSIVE PARA PANTALLAS PEQUEÑAS --- */
 @media screen and (max-width: 600px) {
 
   body {
@@ -126,12 +127,11 @@ footer {
   }
 
   .weather .weather-icon {
-    width: 50px; /* más pequeño en móvil */
+    width: 50px; 
   }
 
   .data p,
   .weather p {
-    /* Evita flex para textos centrados en móvil */
     display: block;
     text-align: center;
     margin: 5px 0;
