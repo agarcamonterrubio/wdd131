@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover Mexico with details and weather info.">
+  <meta name="author" content="Alma Fernanda Garcia Monterrubio">
+  <title>Mexico</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/place.css" media="(min-width: 10px)">
+  <link rel="stylesheet" href="styles/place-large.css" media="(min-width: 900px)">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Mexico</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <img src="images/mexico-piramides.jpg" alt="Landscape of Mexico">
+      </picture>
+    </section>
+
+    <section class="data">
+      <h2>Data</h2>
+      <p><strong>Area:</strong> <span> 1,959,248 km²</span></p>
+      <p><strong>Capital:</strong> <span>Mexico City</span></p>
+      <p><strong>Population:</strong> <span>126 million</span></p>
+      <p><strong>Language:</strong> <span>Spanish</span></p>
+      <p><strong>Currency:</strong> <span>Mexican Peso (MXN)</span></p>
+      <p><strong>Time Zone:</strong> <span>GMT-6</span></p>
+      <p><strong>Calling Code:</strong> <span>+52</span></p>
+
+      <p><strong>Continent:</strong> <span>North America</span></p>
+    </section>
+
+   <section class="weather">
+  <h2>Weather</h2>
+  <img src="images/weather_cloud.png" alt="Cloudy icon" class="weather-icon">
+  <p><strong>Temperature:</strong> <span id="temperature">48</span> °F</p>
+  <p><strong>Wind Speed:</strong> <span id="windSpeed">6</span> mph</p>
+  <p><strong>Conditions:</strong> <span>Cloudy</span></p>
+  <p><strong>Wind Chill:</strong> <span id="windChill"></span></p>
+</section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentYear"></span> | Alma Fernanda Garcia Monterrubio | Hidalgo</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+</body>
+</html>
