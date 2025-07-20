@@ -1,0 +1,104 @@
+main {
+  flex-grow: 1;
+  background-image: url("../images/bellas artes.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+
+/* Imagen grande de fondo */
+.hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* o usa height: 100% de main más padding si se necesita */
+  z-index: -1;
+}
+
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/bellas artes.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.7);
+}
+
+/* Data & Weather */
+.data, .weather {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  width: 320px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.data {
+  margin-top: 2rem;
+}
+
+.weather {
+  margin-top: 2rem;
+}
+
+/* Títulos tipo banner verde */
+.data h2, .weather h2 {
+  background-color: #2e7d32; /* verde oscuro */
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: -1rem -1.5rem 1rem -1.5rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Ícono del clima dentro del título */
+.weather h2 img {
+  width: 24px;
+  height: 24px;
+}
+
+
+/* Texto y espaciado */
+.data p, .weather p {
+  margin: 0.5rem 0;
+}
+
+.hero picture img {
+  display: none;
+}
+
+.data strong, .weather strong {
+  display: inline-block;
+  width: 130px;
+}
+
+/* Footer */
+footer {
+  background-color: #c62828; /* rojo oscuro */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 0;
+}
+
+footer p {
+  margin: 0.3rem;
+}
